@@ -1,2 +1,2 @@
 #!/bin/bash
-tr -d 'cc' < input_file > output_file
+tr -d 'cC' 
