@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "ibase=/base water;$(cat /WATER)+ibase=/base stir;$(cat /STIR)" | bc | awk '{printf "/base bestchol;%s\n", $0}'
